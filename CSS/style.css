@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 350px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+div {
+    height: 500px;
+}
+
+p {
+    font-size: 70px;
+    text-align: center;
+    line-height: 500px;
+}
+
+.a {
+    background-color: aqua;
+}
+
+.b {
+    background-color: fuchsia;
+}
+
+.c {
+    background-color: lightgreen;
+}
+
+.slider-wrap{
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    /* Чтобы во время перетаскивания слайда ничего не выделить внутри него */
+    user-select: none;
+}
+
+.slider-item {
+    width: 100%;
+    flex-shrink: 0;
+    border: 2px solid blue ;
+}
+
+p{
+    border: 2px solid red;
+}
